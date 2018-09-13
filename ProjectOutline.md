@@ -46,11 +46,11 @@ The final product should have the below (and maybe the "nice to haves" also deta
 #### Phase 3: Make it pretty!
 - Get crackin' on CSS and Javascript to make nicer menus, buttons, headers, etc.
 - Add in reporting here as well.
-- Better Authentication if I implemented something haphazardly
+- Better Authentication (if I implemented something haphazardly)
 #### Phase 4: Make it better
 If I haven't been sucked into a blackhole at this point...
 - Calendar/Attendance tracking
 - Dues tracking (Paypal/Stripe API?)
-- Customization/templating'
+- Customization/templating
 - Document tracking (Support local storage, S3, and maybe Google's S3-like thing...whatever it is (Can you tell I use AWS?))
 - Whatever other functionality I inevitably missed at this point.
