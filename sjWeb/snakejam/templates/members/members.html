@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Member List</title>
+    </head>
+    <body>
+        <h1> All Members</h1>
+        <ul>
+            {% for member in members %}
+              <li>
+                  <h2> {{ member.full_name }}</h2>
+                    <ul>
+                        <h3> Details: </h3>
+                            <p>Derby Name: {{ member.derby_name }}</p> 
+                            <p> {% for team in member.teams.all %} Team: {{ team }}<br/>
+                                {% endfor %}
+                            </p>
+                    </ul> 
+              </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
